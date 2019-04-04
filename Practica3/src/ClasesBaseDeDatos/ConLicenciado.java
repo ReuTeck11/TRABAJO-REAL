@@ -18,7 +18,7 @@ public class ConLicenciado {
         Conexion conex = new Conexion();
 
         try {
-            String consulta = "insert into Licenciado (nombre,apellidoPaterno,"
+            String consulta = "inser into Licenciado (nombre,apellidoPaterno,"
                     + "apellidoMaterno,telefonoOficina,horarioAtencion) values "
                     + "( ? , ? , ? , ? , ? , ? ); ";
             PreparedStatement estatuto;
